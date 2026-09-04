@@ -16,6 +16,12 @@ I work across model workflows, backend systems, durable product state, review ex
 
 ## Start here
 
+### Professional case study: [From Messy Evidence to Controlled Action](https://varsha-ai.notion.site/From-Messy-Evidence-to-Controlled-Action-Applied-AI-Engineering-Case-Study-3d006085ac208097a192dd7b776dd685)
+
+A sanitized account of how I developed substantial parts of a company-owned vertical-AI workflow as employee #1 and the only full-time engineer, from an early scaffold through its first working vertical slice and deployed operations.
+
+The case study focuses on multimodal evidence, constrained retrieval, structured model proposals, deterministic validation, human review, durable workflow state, recovery, billing, integrations, and AWS operations. It contains no employer code, customer data, proprietary prompts, internal screenshots, or claim of employer-IP ownership.
+
 ### 1. [Commerce Action Reliability Lab](https://github.com/VarshaThondalapally/commerce-action-reliability-lab)
 
 An independent synthetic evaluation of free-form versus bounded LLM decision architecture.
