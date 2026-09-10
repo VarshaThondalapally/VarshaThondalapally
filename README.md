@@ -1,75 +1,53 @@
 # Varsha Thondalapally
 
-Applied AI engineer building evidence-grounded, human-reviewed systems around probabilistic models.
+**Applied AI Engineer** building the software that makes model output usable: retrieval, structured outputs, deterministic validation, durable state, human review, external integrations, and AWS operations.
 
-I work across model workflows, backend systems, durable product state, review experiences, cloud operations, billing, and external integrations. My strongest engineering pattern is turning uncertain model output and messy operational evidence into software that can be reviewed, recovered, audited, and safely acted on.
+At an early-stage company, I was employee #1 and the only full-time engineer. I developed substantial parts of a company-owned vertical-AI workflow from an early React/FastAPI scaffold to its first working vertical slice in about five weeks, then continued through deployment and operations.
 
-## Technical scope
+## Choose the proof path that matches what you are hiring for
 
-| Layer | Demonstrated work |
+| Hiring need | Relevant evidence |
 | --- | --- |
-| Applied AI | OpenAI and Gemini workflows, multimodal inputs, structured outputs, embeddings, FAISS, hybrid retrieval, reranking, and source grounding |
-| Evaluation and controls | Versioned cases, scenario regression, deterministic validation, ambiguity handling, human approval, provenance, and model/workflow telemetry |
-| Workflow reliability | Durable state, revision and stale-state controls, idempotency, transactional outbox, retries, reconciliation, and recovery |
-| Product engineering | Python, FastAPI, Pydantic, PostgreSQL, SQLAlchemy, Alembic, React, and TypeScript |
-| Operations and integrations | Docker, AWS ECS/Fargate, RDS, S3, CloudWatch, Redis, SQS, Lambda, Stripe, and third-party delivery workflows |
+| Applied AI and LLM systems | [Retrieval, model routing, structured outputs, guardrails, and human review](proof/applied-ai-llm-systems.md) |
+| Backend and workflow systems | [PostgreSQL state, queues, recovery, concurrency, billing, and integrations](proof/backend-workflow-systems.md) |
+| Multimodal and document AI | [PDF, image, sketch, audio, page, room, and source-aware processing](proof/multimodal-document-ai.md) |
+| AI evaluation and reliability | [Behavioral regression, deterministic graders, telemetry, and independent eval proof](proof/ai-evaluation-reliability.md) |
+| Startup full-stack execution | [Zero-to-one React/FastAPI delivery through AWS operation](proof/startup-full-stack-execution.md) |
 
-## Start here
+## Fifteen-second technical evidence
 
-### Professional case study: [From Messy Evidence to Controlled Action](https://varsha-ai.notion.site/From-Messy-Evidence-to-Controlled-Action-Applied-AI-Engineering-Case-Study-3d006085ac208097a192dd7b776dd685)
+- Replaced permissive AI selection with hybrid retrieval, constrained candidates, typed outputs, and exact resolution against an authoritative 14,211-record catalog.
+- Made human approval revision-aware so an earlier decision could not silently authorize changed work.
+- Persisted long-running workflows across refreshes and restarts using PostgreSQL-backed state, Redis or SQS/Lambda job paths, retries, leases, and recovery.
+- Treated Stripe and third-party delivery as stateful, retryable workflows with entitlement, identity, reconciliation, and failure boundaries.
+- Containerized, deployed, and troubleshot the application across ECS/Fargate, ALB, RDS, S3/CloudFront, Route 53/ACM, ElastiCache, CloudWatch, IAM, CloudTrail, and GuardDuty.
 
-A sanitized account of how I developed substantial parts of a company-owned vertical-AI workflow as employee #1 and the only full-time engineer, from an early scaffold through its first working vertical slice and deployed operations.
+## Public, candidate-owned proof
 
-The case study focuses on multimodal evidence, constrained retrieval, structured model proposals, deterministic validation, human review, durable workflow state, recovery, billing, integrations, and AWS operations. It contains no employer code, customer data, proprietary prompts, internal screenshots, or claim of employer-IP ownership.
+### [Commerce Action Reliability Lab](https://github.com/VarshaThondalapally/commerce-action-reliability-lab)
 
-### 1. [Commerce Action Reliability Lab](https://github.com/VarshaThondalapally/commerce-action-reliability-lab)
+A React/TypeScript, FastAPI, and PostgreSQL reference system showing how model proposals become bounded, reviewable actions.
 
-An independent synthetic evaluation of free-form versus bounded LLM decision architecture.
-
-- 20 versioned gold cases
-- deterministic entity and policy controls
-- revision-bound human approval
-- PostgreSQL transactional outbox
-- idempotency, timeout reconciliation, and compensating revisions
-- 61 CI-verified tests, including seven PostgreSQL integration tests
+- 20 versioned synthetic cases
+- structured provider contracts and authoritative entity resolution
+- deterministic policy gates and revision-bound approval
+- PostgreSQL transactional outbox and idempotent execution
+- timeout-after-success reconciliation and compensating revisions
+- 61 verified deterministic and PostgreSQL integration tests
 - [Live reviewer demo](https://varshathondalapally.github.io/commerce-action-reliability-lab/)
 
-The live-provider benchmark is pending; no live accuracy, latency, cost, production-use, or real-commerce claim is made.
+### [Recipe Review Evidence Pipeline](https://github.com/VarshaThondalapally/recipe-review-evidence-pipeline)
 
-### 2. [Recipe Review Evidence Pipeline](https://github.com/VarshaThondalapally/recipe-review-evidence-pipeline)
+A measured LLM extraction-and-action pipeline using strict Pydantic contracts, quote grounding, transactional edit bundles, and a hand-labeled 12-review evaluation.
 
-A measured LLM extraction-and-action pipeline that converts attributed review evidence into exact, deterministic edits.
+### [ShiftMemory](https://github.com/VarshaThondalapally/shiftmemory-cognee-hackathon)
 
-- strict Pydantic extraction contracts
-- quote grounding and evidence-state classification
-- transactional edit bundles
-- hand-labeled evaluation across 12 reviews
-- recorded intent, grounding, edit, latency, and token results
-- CI across Python 3.11 and 3.13 with coverage, lint, type, and dependency checks
+A source-grounded team-memory demonstration using Cognee, Gemini, FastAPI, and React, with role boundaries, source verification, reviewer feedback, and auditable traces.
 
-This is a small independent evaluation, not a production or food-safety claim.
+## Professional engineering case
 
-### 3. [ShiftMemory](https://github.com/VarshaThondalapally/shiftmemory-cognee-hackathon)
+The [sanitized professional case study](https://varsha-ai.notion.site/From-Messy-Evidence-to-Controlled-Action-Applied-AI-Engineering-Case-Study-3d006085ac208097a192dd7b776dd685) contains the longer idea-to-operated-product history. The role-specific pages above are the faster entry points for hiring teams.
 
-A source-grounded team-memory demonstration using Cognee, Gemini, FastAPI, and React.
+The employer owns the professional product, source code, designs, data, and intellectual property. The public repositories use independent synthetic data and do not reproduce employer materials.
 
-- remember, recall, improve, and forget lifecycle
-- source verification before generated handoffs
-- role-based access and assignment boundaries
-- backend-owned provider credentials
-- reviewer feedback and auditable traces
-- recorded Cognee/Gemini lifecycle verification
-
-## Professional work and ownership boundary
-
-At an early-stage company, I was employee #1 and served as the only full-time engineer, developing and operating substantial parts of a company-owned vertical-AI product from its first working vertical slice through deployed operations.
-
-That work included multimodal evidence processing, retrieval and authoritative-data resolution, structured model outputs, human review, durable workflow state, AWS operations, billing, and third-party integrations.
-
-The employer owns that product, its source code, designs, data, and intellectual property. The repositories above are independently created synthetic projects that demonstrate transferable engineering patterns without copying employer materials.
-
-## Role focus
-
-Applied AI Engineer · AI Product Engineer · Product-oriented Forward Deployed Engineer
-
-[LinkedIn](https://www.linkedin.com/in/varshase/)
+[LinkedIn](https://www.linkedin.com/in/varshase/) | [Email](mailto:varshareddy1601@gmail.com)
