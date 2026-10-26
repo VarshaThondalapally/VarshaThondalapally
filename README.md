@@ -2,7 +2,7 @@
 
 **Applied AI Engineer** building the software that makes model output usable: retrieval, structured outputs, deterministic validation, durable state, human review, external integrations, and AWS operations.
 
-At an early-stage company, I was employee #1 and the only full-time engineer. I developed substantial parts of a company-owned vertical-AI workflow from an early React/FastAPI scaffold to its first working vertical slice in about five weeks, then continued through deployment and operations.
+At an early-stage company building insurance-restoration software, I was employee #1 and the only full-time engineer. I developed substantial parts of a company-owned vertical-AI workflow from an early React/FastAPI scaffold to its first working vertical slice in about five weeks, then continued through deployment and operations.
 
 ## Choose the proof path that matches what you are hiring for
 
@@ -40,9 +40,17 @@ A React/TypeScript, FastAPI, and PostgreSQL reference system showing how model p
 
 A measured LLM extraction-and-action pipeline using strict Pydantic contracts, quote grounding, transactional edit bundles, and a hand-labeled 12-review evaluation.
 
-### [ShiftMemory](https://github.com/VarshaThondalapally/shiftmemory-cognee-hackathon)
+### [Udyogam Job Intelligence](https://github.com/VarshaThondalapally/udyogam-job-intelligence)
 
-A source-grounded team-memory demonstration using Cognee, Gemini, FastAPI, and React, with role boundaries, source verification, reviewer feedback, and auditable traces.
+A local-first Python pipeline that captures complete careers-page documents, preserves source hashes, and analyzes one job per model request. The repository reports an initial four-job capture and analysis; company-context research remains beta pending its citation-quality validation.
+
+### Restoration intake workflow
+
+[Restoration AI Operations Reliability Lab](https://github.com/VarshaThondalapally/restoration-ai-operations-reliability-lab) shows synthetic intake, clarification, safety escalation, and human handoff. It is a frontend prototype with 18 regression scenarios; it does not reproduce the professional product or connect to a real dispatch system.
+
+### Additional demonstration
+
+[ShiftMemory](https://github.com/VarshaThondalapally/shiftmemory-cognee-hackathon) is a synthetic hackathon demonstration of source-grounded team memory and role boundaries.
 
 ## Professional engineering case
 
@@ -50,4 +58,4 @@ The [sanitized professional case study](https://varsha-ai.notion.site/From-Messy
 
 The employer owns the professional product, source code, designs, data, and intellectual property. The public repositories use independent synthetic data and do not reproduce employer materials.
 
-[LinkedIn](https://www.linkedin.com/in/varshase/) | [Email](mailto:varshareddy1601@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/varshase/) | [Email](mailto:varshareddy1601@gmail.com) | [Request a current resume](mailto:varshareddy1601@gmail.com?subject=Current%20resume%20request)
