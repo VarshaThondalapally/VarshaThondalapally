@@ -35,6 +35,7 @@ A React/TypeScript, FastAPI, and PostgreSQL reference system showing how model p
 - timeout-after-success reconciliation and compensating revisions
 - 62 verified deterministic and PostgreSQL integration tests, plus 10 retry-explainer tests
 - [Live reviewer demo](https://varshathondalapally.github.io/commerce-action-reliability-lab/)
+- [See it in 60 seconds: interactive retry explainer](https://varshathondalapally.github.io/commerce-action-reliability-lab/explainer/index.html)
 
 ### [Recipe Review Evidence Pipeline](https://github.com/VarshaThondalapally/recipe-review-evidence-pipeline)
 
@@ -42,7 +43,7 @@ A measured LLM extraction-and-action pipeline using strict Pydantic contracts, q
 
 ### [Udyogam Job Intelligence](https://github.com/VarshaThondalapally/udyogam-job-intelligence)
 
-A local-first Python pipeline that captures complete careers-page documents, preserves source hashes, and analyzes one job per model request. The repository reports an initial four-job capture and analysis; company-context research remains beta pending its citation-quality validation.
+Evidence-grounded pipeline from live careers pages to LLM-ready job documents and cited company research.
 
 ### Restoration intake workflow
 
