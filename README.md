@@ -33,7 +33,7 @@ A React/TypeScript, FastAPI, and PostgreSQL reference system showing how model p
 - deterministic policy gates and revision-bound approval
 - PostgreSQL transactional outbox and idempotent execution
 - timeout-after-success reconciliation and compensating revisions
-- 61 verified deterministic and PostgreSQL integration tests
+- 62 verified deterministic and PostgreSQL integration tests, plus 10 retry-explainer tests
 - [Live reviewer demo](https://varshathondalapally.github.io/commerce-action-reliability-lab/)
 
 ### [Recipe Review Evidence Pipeline](https://github.com/VarshaThondalapally/recipe-review-evidence-pipeline)
