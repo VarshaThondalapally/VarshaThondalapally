@@ -45,10 +45,6 @@ A measured LLM extraction-and-action pipeline using strict Pydantic contracts, q
 
 Evidence-grounded pipeline from live careers pages to LLM-ready job documents and cited company research.
 
-### Restoration intake workflow
-
-[Restoration AI Operations Reliability Lab](https://github.com/VarshaThondalapally/restoration-ai-operations-reliability-lab) shows synthetic intake, clarification, safety escalation, and human handoff. It is a frontend prototype with 18 regression scenarios; it does not reproduce the professional product or connect to a real dispatch system.
-
 ### Additional demonstration
 
 [ShiftMemory](https://github.com/VarshaThondalapally/shiftmemory-cognee-hackathon) is a synthetic hackathon demonstration of source-grounded team memory and role boundaries.
