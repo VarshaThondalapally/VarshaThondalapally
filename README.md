@@ -24,6 +24,23 @@ At an early-stage company building insurance-restoration software, I was employe
 
 ## Public, candidate-owned proof
 
+### [Settle](https://github.com/VarshaThondalapally/settle)
+
+A change gate for AI ad agents. It checks each change an agent plans against Meta and Google's own learning rules and lets it through, or holds and batches it, with the reason and the source. Built in November 2026 with AI coding tools, to carry the rules-engine approach I used in production into paid advertising.
+
+- one rule pack per platform, kept as data, every rule sourced
+- sizing check from Meta's own formula
+- 15 checks run on every push
+- [Live demo](https://varshathondalapally.github.io/settle/)
+
+### [SheetCheck](https://github.com/VarshaThondalapally/sheetcheck)
+
+Flags issue-day problems in construction drawing sets (missing or unindexed sheets, title-block mismatches, template defaults left in, callouts to sheets that don't exist) for a person to accept or reject. Runs in the browser; the PDF is never uploaded. [Live demo](https://varshathondalapally.github.io/sheetcheck/)
+
+### [RepairScope](https://github.com/VarshaThondalapally/repair-scope)
+
+Drafts repair lines from field notes and blocks approval when required companion work is missing, with a published 75-case evaluation. [Live demo](https://varshathondalapally.github.io/repair-scope/)
+
 ### [Commerce Action Reliability Lab](https://github.com/VarshaThondalapally/commerce-action-reliability-lab)
 
 A React/TypeScript, FastAPI, and PostgreSQL reference system showing how model proposals become bounded, reviewable actions.
